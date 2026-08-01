@@ -1,38 +1,44 @@
+<div align="center">
+
 # 🔐 Telegram Session Generator
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python">
-  <img src="https://img.shields.io/badge/Pyrogram-Latest-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=32&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Secure+Telegram+Session+Generator;Generate+Pyrogram+String+Sessions;Fast+%7C+Secure+%7C+Professional;Built+with+Python+%26+Pyrogram" alt="Typing SVG" />
+
+<p>
+<img src="https://img.shields.io/github/stars/USERNAME/REPOSITORY?style=for-the-badge&logo=github" />
+<img src="https://img.shields.io/github/forks/USERNAME/REPOSITORY?style=for-the-badge&logo=github" />
+<img src="https://img.shields.io/github/license/USERNAME/REPOSITORY?style=for-the-badge" />
+<img src="https://img.shields.io/github/issues/USERNAME/REPOSITORY?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Pyrogram-Latest-FF6B00?style=for-the-badge" />
 </p>
 
-<p align="center">
-<b>A secure and lightweight Telegram Session Generator built for developers who need authenticated Pyrogram sessions for their Telegram applications.</b>
-</p>
+<img src="https://komarev.com/ghpvc/?username=USERNAME&label=Repository+Views&color=0e75b6&style=for-the-badge"/>
 
 ---
 
-# ✨ Overview
+### ⚡ Secure • Fast • Reliable
 
-This project helps you generate a Telegram **String Session** securely using your own Telegram account credentials.
+*A professional Telegram Session Generator for creating secure Pyrogram String Sessions using your own Telegram account.*
 
-The generated session can be used in Telegram applications built with **Pyrogram**, allowing your user account to authenticate without repeatedly entering login codes.
+</div>
 
 ---
 
-# 🚀 Features
+# ✨ Features
 
-* 🔒 Secure Telegram authentication
-* ⚡ Fast session generation
-* 📱 Supports User Account login
-* 🔑 Uses official Telegram API credentials
-* 💻 Cross-platform support
-* 🐍 Built with modern Python
-* 📦 Lightweight dependencies
-* 🛡️ Safe local generation
+* 🔐 Secure Telegram Authentication
+* ⚡ Fast Session Generation
+* 📱 Supports Two-Step Verification
+* 🛡️ Safe Local Session Creation
+* 🔑 Official Telegram API Login
+* 🐍 Built with Modern Python
+* 🚀 Optimized Performance
+* 💻 Cross-Platform Support
+* 📦 Lightweight & Easy to Use
 * ♻️ Reusable String Session
-* 🎯 Beginner-friendly
+* 📚 Beginner Friendly
+* 🔥 Clean Source Code
 
 ---
 
@@ -44,35 +50,27 @@ Telegram-Session-Generator/
 ├── session.py
 ├── requirements.txt
 ├── README.md
-└── LICENSE
+├── LICENSE
+└── .gitignore
 ```
 
 ---
 
-# 📦 Requirements
+# 🚀 Installation
 
-* Python 3.9+
-* Telegram API ID
-* Telegram API HASH
-* Internet Connection
-
----
-
-# ⚙️ Installation
-
-Clone the repository
+### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/Telegram-Session-Generator.git
+git clone https://github.com/USERNAME/Telegram-Session-Generator.git
 ```
 
-Move into the project
+### Open Project
 
 ```bash
 cd Telegram-Session-Generator
 ```
 
-Install dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -80,7 +78,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Run
+# ▶️ Generate Session
 
 ```bash
 python session.py
@@ -88,24 +86,25 @@ python session.py
 
 ---
 
-# 📋 Steps
+# 📋 How It Works
 
-1. Enter your Telegram API ID.
-2. Enter your Telegram API HASH.
-3. Enter your phone number.
-4. Verify the OTP.
+1. Enter your API ID.
+2. Enter your API HASH.
+3. Enter your Telegram phone number.
+4. Verify the OTP sent by Telegram.
 5. Enter your Two-Step Verification password (if enabled).
 6. Copy your generated String Session.
-7. Save it securely.
+7. Store it securely.
 
 ---
 
-# 🔒 Security Notice
+# 📦 Requirements
 
-* Never share your String Session.
-* Never upload your session to public repositories.
-* Keep your API credentials private.
-* Regenerate your session immediately if it is exposed.
+| Requirement | Version |
+| ----------- | ------- |
+| Python      | 3.9+    |
+| Pyrogram    | Latest  |
+| TgCrypto    | Latest  |
 
 ---
 
@@ -118,41 +117,49 @@ python session.py
 
 ---
 
-# 💡 Use Cases
+# 🔒 Security
 
-* Telegram Bots
-* Music Bots
-* Management Bots
-* Automation Projects
-* UserBot Development
-* Custom Telegram Applications
+> **Never share your String Session.**
+
+* Keep your API credentials private.
+* Do not upload your session to GitHub.
+* Regenerate the session immediately if it is compromised.
+
+---
+
+# ⭐ Why This Project?
+
+* Professional code structure
+* Secure authentication flow
+* Lightweight and fast
+* Ideal for Telegram automation
+* Easy deployment
+* Open-source and customizable
 
 ---
 
 # 🤝 Contributing
 
-Contributions, issues, and feature requests are always welcome.
+Contributions are welcome!
 
 1. Fork the repository
-2. Create a feature branch
+2. Create your feature branch
 3. Commit your changes
-4. Push the branch
+4. Push to your branch
 5. Open a Pull Request
-
----
-
-# ⭐ Support
-
-If this project helps you, please consider giving it a ⭐ on GitHub.
 
 ---
 
 # 📜 License
 
-This project is licensed under the MIT License.
+Licensed under the **MIT License**.
 
 ---
 
-<p align="center">
-Made with ❤️ using Python & Telegram API
-</p>
+<div align="center">
+
+### ⭐ If this project helped you, consider giving it a Star!
+
+**Made with ❤️ using Python & Telegram API**
+
+</div>
