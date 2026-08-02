@@ -698,3 +698,184 @@ Every contribution helps the project grow.
 motivates future updates.
 
 ---
+---
+
+# 🏆 Acknowledgements
+
+Special thanks to the amazing open-source community and the developers behind these incredible projects:
+
+* ❤️ Telegram
+* 🐍 Python
+* ⚡ Pyrogram
+* 🔐 MTProto API
+* 🌍 GitHub
+
+Without these technologies, this project wouldn't be possible.
+
+---
+
+# 📜 License
+
+Distributed under the **MIT License**.
+
+Feel free to use, modify, and distribute this project in accordance with the license.
+
+See the `LICENSE` file for complete details.
+
+---
+
+# 🌍 Connect With Me
+
+<p align="center">
+
+<a href="https://github.com/Raja-kumar-1996">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</p>
+
+---
+
+# ⭐ Show Your Support
+
+If you found this project useful:
+
+⭐ Star this repository
+
+🍴 Fork this project
+
+📢 Share it with your friends
+
+💙 Contribute to make it even better
+
+Your support motivates future development.
+
+---
+
+# 📈 Repository Statistics
+
+<p align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Raja-kumar-1996&theme=github_dark"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Raja-kumar-1996&theme=github_dark"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Raja-kumar-1996&theme=github_dark"/>
+
+</p>
+
+---
+
+# 🚀 Future Plans
+
+This project will continue to evolve with new features and improvements.
+
+### Planned Enhancements
+
+* 🌐 Telethon Session Support
+* 📱 QR Code Login
+* 🐳 Docker Image
+* 🔄 Auto Update Checker
+* 🎨 Improved CLI Interface
+* 🌍 Multi-language Support
+* ☁️ Cloud Deployment Guide
+* 🔐 Enhanced Security Checks
+* 📦 Package Distribution via PyPI
+
+Community suggestions are always welcome!
+
+---
+
+# 📊 Development Workflow
+
+```text id="q1v3w5"
+      Clone Repository
+             │
+             ▼
+    Install Requirements
+             │
+             ▼
+     Configure API Details
+             │
+             ▼
+      Generate Session
+             │
+             ▼
+      Save String Session
+             │
+             ▼
+      Use in Your Project
+```
+
+---
+
+# 🐍 GitHub Contribution Snake
+
+To enable the contribution snake animation, create the following GitHub Actions workflow:
+
+```yaml id="n8x4b2"
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Raja-kumar-1996
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+Save it as:
+
+```text id="a4m7p9"
+.github/workflows/snake.yml
+```
+
+---
+
+# 💡 Project Philosophy
+
+> **Build secure tools. Keep them simple. Share them with the community.**
+
+This project is designed with a focus on simplicity, transparency, and reliability, making it useful for both beginners and experienced Telegram developers.
+
+---
+
+# ❤️ Thank You
+
+Thank you for visiting this repository.
+
+If this project helped you, please consider giving it a ⭐ and sharing it with others.
+
+Every star, issue, pull request, and contribution helps make this project better.
+
+---
+
+<div align="center">
+
+## 🚀 Happy Coding!
+
+**Made with ❤️ using Python, Pyrogram, and the Telegram API**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=140&section=footer"/>
+
+</div>
