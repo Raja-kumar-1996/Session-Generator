@@ -181,6 +181,309 @@ Windows • Linux • macOS
 
 # ❤️ Support the Project
 
+# 📁 Project Structure
+
+```text
+Session-Generator/
+│
+├── session.py              # Main application
+├── requirements.txt        # Project dependencies
+├── README.md               # Documentation
+├── LICENSE                 # MIT License
+├── .gitignore              # Ignored files
+│
+├── assets/
+│   ├── banner.png
+│   ├── screenshots/
+│   └── logo.png
+│
+├── config/
+│   └── config.py
+│
+└── output/
+    └── session.txt
+```
+
+---
+
+# ⚙️ Requirements
+
+Before running the project, make sure you have:
+
+| Software            | Version       |
+| ------------------- | ------------- |
+| Python              | 3.9 or Higher |
+| pip                 | Latest        |
+| Internet Connection | Required      |
+| Telegram Account    | Required      |
+| API ID              | Required      |
+| API HASH            | Required      |
+
+---
+
+# 🚀 Installation
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Raja-kumar-1996/Session-Generator.git
+```
+
+---
+
+## 2️⃣ Navigate to the Project
+
+```bash
+cd Session-Generator
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4️⃣ Start the Generator
+
+```bash
+python session.py
+```
+
+---
+
+# 📖 Usage Guide
+
+Running the script will prompt you to enter:
+
+1. 📱 Telegram Phone Number
+2. 🔑 Telegram API ID
+3. 🔒 Telegram API HASH
+4. 📨 Verification Code (OTP)
+5. 🔐 Two-Step Verification Password (if enabled)
+
+After successful authentication, your **String Session** will be generated.
+
+Example:
+
+```text
+Enter API ID: 12345678
+Enter API HASH: abcdef1234567890
+Phone Number: +91XXXXXXXXXX
+
+✔ Login Successful
+
+String Session Generated Successfully
+
+AAEAAAEFg7...
+```
+
+---
+
+# 🔑 Getting Telegram API Credentials
+
+To generate a session, you'll need your own Telegram API credentials.
+
+1. Visit **https://my.telegram.org**
+2. Sign in with your Telegram account.
+3. Open **API Development Tools**.
+4. Create an application.
+5. Copy your:
+
+   * API ID
+   * API HASH
+
+Keep these credentials private.
+
+---
+
+# 🔐 Environment Variables (Optional)
+
+If your project supports environment variables, create a `.env` file.
+
+```env
+API_ID=12345678
+API_HASH=your_api_hash
+PHONE_NUMBER=+911234567890
+```
+
+Then load them in your application before generating the session.
+
+---
+
+# 🖥️ Example Terminal
+
+```bash
+$ python session.py
+
+======================================
+ Telegram Session Generator
+======================================
+
+Enter API ID :
+Enter API HASH :
+Enter Phone Number :
+
+Sending OTP...
+
+Enter OTP :
+
+Generating Session...
+
+✔ Session Generated Successfully
+
+Saved Successfully
+```
+
+---
+
+# 📂 Output
+
+Your generated session can be:
+
+* Displayed on the terminal
+* Saved to a text file
+* Stored securely as an environment variable
+* Used directly in your Telegram application
+
+Example:
+
+```text
+String Session
+
+AAEAAAGfGk8...
+
+```
+
+---
+
+# 🏗️ Architecture
+
+```text
+             Telegram Servers
+                     │
+                     │
+              MTProto API
+                     │
+                     ▼
+          Telegram Authentication
+                     │
+                     ▼
+          Session Generator Script
+                     │
+      ┌──────────────┴──────────────┐
+      │                             │
+      ▼                             ▼
+Generate String Session      Save Securely
+      │                             │
+      └──────────────┬──────────────┘
+                     ▼
+        Use in Telegram Applications
+```
+
+---
+
+# 📸 Screenshots
+
+Add screenshots inside:
+
+```
+assets/screenshots/
+```
+
+Example:
+
+```markdown
+## Home
+
+![Home](assets/screenshots/home.png)
+
+## Session Generated
+
+![Session](assets/screenshots/session.png)
+```
+
+---
+
+# 💡 Common Use Cases
+
+* 🎵 Music Bots
+* 🤖 UserBots
+* 📊 Automation Tools
+* 👮 Group Management Bots
+* 🛰️ Telegram Monitoring Tools
+* 📥 Data Collection Projects
+* 🧪 Testing Telegram Applications
+* ⚙️ Personal Telegram Utilities
+
+---
+
+# 🔥 Performance
+
+| Feature           | Status |
+| ----------------- | ------ |
+| Login Speed       | ⚡ Fast |
+| Memory Usage      | 🟢 Low |
+| CPU Usage         | 🟢 Low |
+| Cross Platform    | ✅      |
+| Lightweight       | ✅      |
+| Beginner Friendly | ✅      |
+
+---
+
+# 📦 Dependencies
+
+```text
+pyrogram
+tgcrypto
+```
+
+Install manually if needed:
+
+```bash
+pip install pyrogram tgcrypto
+```
+
+---
+
+# 🛠️ Troubleshooting
+
+### Invalid API ID or HASH
+
+Verify your credentials from **https://my.telegram.org**.
+
+---
+
+### OTP Not Received
+
+* Check your Telegram app.
+* Ensure your phone number is correct.
+* Wait a few moments and try again.
+
+---
+
+### Session Not Working
+
+* Generate a fresh session.
+* Verify Two-Step Verification password.
+* Ensure the session is copied completely.
+
+---
+
+# 💬 Tips
+
+* Never share your String Session.
+* Keep API credentials private.
+* Store sensitive information in environment variables.
+* Use the latest version of Pyrogram.
+* Regenerate your session if you suspect it has been exposed.
+
+---
+
+
 If this project saves you time, please consider giving it a ⭐ on GitHub. Your support helps improve the project and motivates future updates.
 
 ---
